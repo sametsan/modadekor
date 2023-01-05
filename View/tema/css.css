@@ -1,0 +1,359 @@
+*
+{margin:0;padding:0;}
+
+body
+{background:url("arka.jpg") ;margin : 20 0 0 0;color:#DDD;font-family:arial,black;font-size:0.688em;height:100%;} 
+
+form
+{display:inline;padding:0;margin:0;}
+
+a
+{text-decoration:none;color:#DDD;}
+
+a:hover
+{cursor:pointer;text-decoration:none;color:#f80;}
+
+hr 
+{clear:both;display:block;color:#EFEFEF;width:93%;margin:0;} 
+
+input[type=text],textarea,input[type=password]
+{border:1px solid #CCC;float:left;width:170;height:30;color:#444;font-weight:bold;padding:4;}
+input[type=submit]
+{border:1px solid #CCC;float:left;padding:10 20;height:35;background:#DDD;font-weight:bold;color:#444;}
+input[type=submit]:hover
+{border:1px solid #CCC;float:left;height:35;background:#AAA;color:#444;}
+textarea
+{width:370;height:150;}
+
+table
+{font-size:1em}
+
+.mp3
+{
+position:absolute;  
+bottom:40;
+right:0;
+  
+}
+
+
+.buton
+{
+   background:#000;
+ border:1px solid #222;
+ height:30;
+ padding:5;
+ color:#DDD;
+}
+
+.temizle
+{clear:both;}
+
+.ana
+{width:980;height:auto;margin:auto;text-align:left;background:url("ana.png");padding:0 0;}
+
+.baslik
+{height:140;width:980;position:relative;display:block;}
+.baslik .baslik_logo
+{height:140;width:500;position:relative;display:block;float:left;}
+.baslik .baslik_menu
+{height:140;width:470;position:relative;display:block;float:left;}
+.baslik .site_menu
+{height:25;width:350;font-size:1.2em;bottom:1;right:0;position:absolute;padding:4 0;text-align:right;}
+.baslik .uyelik_menu
+{height:25;width:350;font-size:1.2em;top:1;right:0;position:absolute;padding:4 0;text-align:right;}
+.baslik .menu a,.baslik .menuler a:hover
+{text-align:left;padding:2 5;display:inline;color:#333;}
+.baslik .menu a:hover
+{text-decoration:none;color:#f80;}
+
+.giris
+{width:100%;font-size:1.2em;top:0;left:0;position:absolute;z-index:9999;}
+.giris-ust
+{height:1;width:100%;overflow:hidden;background:#222;display:none;
+-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;}
+.giris-alt
+{width:100%;height:30;background:url("giris_alt.png") repeat-x;}
+.giris-orta
+{margin:auto;width:980;border-right:1px solid #333;display:block;}
+.giris-sutun
+{height:340;width:310;float:left;border-left:1px solid #333;padding:5;text-align:left;overflow:auto;}
+.giris-dugmeler
+{margin:auto;height:40;width:980;display:block;}
+.giris-dugmeler h4
+{float:right;background:url("giris_dugmeler.png") no-repeat;height:40;width:250;text-align:center;padding-top:7;line-height:2;cursor:pointer;}
+.giris-dugmeler h4 .dugme:hover
+{color:#f80;}
+.giris-dugmeler h4 .dugme img
+{float:left;margin-left:15;margin-bottom:25;}
+.giris-dugmeler #giris_dugmeler_kapat
+{display:none;}
+.giris .yazi-alani
+{width:250;}
+
+.giris-girdi
+{width:152;height:35;margin-left:5;float:left;padding-top:5;}
+.giris-girdi-gir
+{background:#333;width:150;height:33;border:1px solid #222;color:#DDD;}
+.giris-gir
+{width:55;height:40;float:left;padding-top:5;display:inline;background:url("gir.png") no-repeat ;}
+.giris-uyeol,.giris-uyeol:hover
+{width:55;height:40;float:left;padding-top:5;display:inline;background:url("uyeol.png") no-repeat;}
+.giris-uyeol:hover
+{background:url("uyeol.png") no-repeat;}
+
+.giris2
+{height:40;width:480;font-size:1.2em;background:#222;border:1px solid #333;line-height:3;}
+.giris2-dugmeler
+{width:420;height:35;color:#DDD;float:left;margin-left:5;text-align:center;}
+.giris2-cikis
+{width:52;height:40;margin-right:2;float:right;padding-top:5;background:url("cikis.png") no-repeat;}
+
+
+
+.bilgiler
+{height:80;width:952;margin:auto;padding:10;text-align:left;margin-top:10;border-top:1px solid #DDD;border-bottom:1px solid #DDD;}
+.bilgiler-s
+{float:left;width:20%;border-right:1px solid #DDD;padding:0 5;}
+.bilgiler-s a,.bilgiler-s a:hover
+{display:block;padding:3;}
+.bilgiler-s a:hover
+{background:#f80;text-decoration:none;color:#FFF;}
+
+.dip
+{text-align:center;margin:auto;padding:5px;}
+
+.sol
+{float:left;width:180;padding:5;}
+
+.orta
+{margin:auto;width:960px;height:auto ;display:block;padding:0 10;}
+
+.reklam
+{width:280;height:250;float:left;}
+
+.menu
+{background:#444 repeat-x;height:40;width:100%;display:block;z-index:9999;margin-bottom:20;}
+.menu .dugme
+{position:relative;float:left;}
+.menu .dugme a,.menu .dugme a:hover
+{float:left;text-decoration:none;color:#DDD;font-size:1.1em;padding:13 15;font-weight:bold;display: block;}
+.menu .dugme a:hover
+{cursor:pointer;color:#f80;background-color: #222;}
+.menu .dugme .kategoriler
+{position:absolute;top:40;left:0;margin:0;padding:0;z-index:1;display:none;list-style:none;}
+.menu .dugme .kategoriler a,.menu .dugme .kategoriler a:hover
+{font-size:1.1em;border:1px solid #DDD;padding:10;background:#222;color:#DDD;font-weight:bold;display:block;margin:0;width:150;}
+.menu .dugme .kategoriler a:hover
+{background:#555;text-decoration:none;}
+
+.soneklenenler
+{width:972;height:230;padding:5;margin-top:10;}
+.soneklenenler h3
+{height:30;width:100%;padding:5;font-size:15;}
+.soneklenenler img
+{height:190;margin-left:5;}
+
+.arama
+{position:absolute;right:5;top:1;float:right;margin:6 5;}
+.arama a,.arama a:hover
+{padding:0;float:left;margin-top:0;}
+.arama a:hover
+{border:0;}
+.arama input[type=text]
+{border:1px solid #FFFFFF;float:left;width:170;height:25;color:#555;font-weight:bold;border:1px solid #DDD;}
+.arama input[type=submit]
+{border:1px solid #FFFFFF;float:left;height:25;background:#F2F2FF;font-weight:bold;font-size:0.6875em;}
+.arama input[type=submit]:hover
+{border:1px solid #FFFFFF;float:left;height:25;background:#DDD;}
+
+.uyari
+{
+width:99%;
+padding:5;
+background:#F00;
+text-align:center;
+}
+
+.slayt
+{
+ width:980;
+ height:490;
+ margin:auto;
+}
+
+.slayt-orta
+{background:#222; width:887;height:441;margin:auto;padding-top:1;display:block;}
+.slayt-orta  img
+{margin:1;width:885;height:441;z-index:9998;display:none;opacity:0;filter:alpha(opacity=0);}
+
+.slayt-govde
+{
+  width:887;
+   height:490;
+   display:block;
+ float:left;
+
+ position:relative;
+}
+
+
+.slayt-sol
+{
+width:46;
+height:490;
+float:left;
+}
+
+.slayt-sol-sol
+{
+  margin-top:175;
+width:46;
+height:151;
+background:url("slayt_sol.png") no-repeat;
+float:left;
+cursor:pointer;
+opacity:0.8;
+}
+
+.slayt-sag
+{
+width:46;
+height:490;
+float:left;
+
+  
+}
+
+.slayt-sag-sag
+{
+  opacity:0.8;
+  cursor:pointer;
+margin-top:175;
+width:46;
+height:151;
+background:url("slayt_sag.png") no-repeat;
+float:right;
+}
+
+
+
+
+.slayt-liste
+{background:url("slayt_alt.png") center no-repeat;text-align:right;width:887;height:47;margin:auto;line-height:4;  display:block;}
+.slayt-liste-dugme
+{margin-right:25;float:right;margin-top:13;background:url("slayt_dugme.png") repeat-x;height:20;}
+.slayt-liste-buton,.slayt-liste-buton:hover,.slayt-liste-buton-goster
+{width:20;height:20;float:left;cursor:pointer;}
+.slayt-liste-buton:hover,.slayt-liste-buton-goster
+{background:url("slayt_dugme2.png") ;}
+
+
+.adres
+{border:1px solid #333;background:#333;padding:5;margin-bottom:5;width:968;display:block;}
+
+.tablo
+{width:960px;;margin-bottom:5;}
+.tablo h3
+{font-size:1.3em;padding:5;background:#444;padding:10;font-weight:bold;color:#DDD;margin:0;}
+.tablo p
+{padding:5;margin:0;}
+
+
+.urun
+{border:1px solid #EFEFEF;float:left;padding:9;width:122;background:url("urun_arka.png") repeat-x ;margin:1;height:220;}
+.urun-ad
+{font-size:12;color:#DDD;}
+.urun-fiyat
+{font-size:11;color:#FF0000;font-weight:bold;}
+.urun-tanim
+{font-size:11;color:#229922;}
+.urun-cubuk
+{padding:2;height:30;width: 956px;}
+.urun-cubuk img
+{margin:2;}
+.urun-satir
+{display:inline;padding:5 0;}
+.urun-sepete-ekle
+{float:right;}
+.urun-sepete-ekle-adet
+{float:left;height:25;margin-top:2;}
+.urun-sepete-ekle-dugme
+{float:left;}
+.urun-resim
+{width:940;height: auto; padding:10;text-align:center;overflow:hidden;}
+.urun-ayrinti
+{padding:10;background:#DDD;border:1px solid #DDD;width:98%;}
+.urun-ufak
+{border-bottom:1px solid #444;}
+.urun-aciklama
+{font-size:12;}
+
+
+.giris-ad
+{font-size:13;font-weight:bold;background:#008aff;border:1px solid #DDDDDD;padding:5;color:#FFFFFF;}
+.giris-dugme
+{padding:9;cursor:pointer;font-weight:bold;width:100%;background:url("dugme.png");}
+
+.sayfala
+{padding:5;display:block;}
+.sayfala-sec
+{padding:3;font-size:12;font-weight:bold;border:1px solid #FFFFFF;background:#ff8a00;color:#FFFFFF;}
+.sayfala-secili
+{padding:3;font-size:12;font-weight:bold;border:1px solid #FFFFFF;background:#000000;color:#FFFFFF;}
+
+.sozlesme
+{width:99%;overflow-y:scroll;height:100;background:#222;}
+
+.liste
+{display:block;width:960;margin-top:20;}
+.liste-satir
+ {display:block;width:960;height: 270px;}
+.liste-tablo
+{width:320;height:270;float:left;margin:auto;text-align:center;}
+ .liste-tablo img
+{padding:5;border:1px solid #444;width:290;height:240;margin-top:10;}
+ .liste-tablo-ad
+{font-weight:bold;font-size:15;margin:5;height:50;}
+ .liste-tablo-fiyat
+{font-size:18;color:#8add00;}
+ .liste-tablo-tanim
+{height:30;margin:5;}
+
+
+.sepetim
+{width:165;background:url("sepetim.png") no-repeat;margin-bottom:5;padding:70 5 5 5;}
+
+.sepet table 
+{border-spacing:0;width:100%;font-size:11px;}
+.sepet table tr
+{padding:0;}
+.sepet table tr td
+{padding:5;vertical-align:top;border:1px solid #DDD;}
+
+.siparis
+{border-spacing:0;width:100%;font-size:11px;border:1px solid #333;background:#222;position:relative;height:120;margin:1;overflow:hidden;}
+.siparis img
+{position:absolute;left:3;top:2;border:1px solid #DDD;width:150;height:110;}
+.siparis .ad
+{position:absolute;left:165;top:5;font-weight:bold;width:150;}
+.siparis .aciklama
+{position:absolute;left:165;bottom:15;width:550;}
+.siparis .tarih
+{position:absolute;right:10;top:5;}
+.siparis .durum
+{position:absolute;left:400;top:5;}
+.siparis .odeme
+{position:absolute;left:600;top:5;}
+
+
+.duyuru
+{background:url('duyuru_ust.png') no-repeat top;padding-top:30;}
+.duyuru-alt
+{background:url('duyuru_alt.png') no-repeat bottom;padding-bottom:30;}
+.duyuru-ic
+{background:url('duyuru_arka.png') repeat-y;padding:15;color:#500;}
+
